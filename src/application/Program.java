@@ -8,8 +8,13 @@ public class Program {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		
+		// Determina quantos quartos vai alugar;
+		
 		System.out.print("How many rooms will be rented? ");
 		int n = sc.nextInt();
+		
+		
 		
 		Room[] vect = new Room[10];
 		
